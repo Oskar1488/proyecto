@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Centrar las imágenes de la segunda columna */
+td img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: lightslategray;
+}

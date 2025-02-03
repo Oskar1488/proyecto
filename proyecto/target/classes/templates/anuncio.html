@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Avion</title>
+</head>
+<body>
+<h1>Detalles del Avion</h1>
+<p><strong>Nombre:</strong> <span th:text="${avion.nombre}"></span></p>
+<p><strong>Imagen:</strong> <span th:text="${avion.imagen}"></span></p>
+<img th:src="@{${avion.imagen}}" alt="Imagen de avión" style="width:100px; height:auto;" />
+<p><strong>Descripción:</strong> <span th:text="${avion.descripcion}"></span></p>
+<a href="/">Volver</a>
+</body>
+</html>
+
